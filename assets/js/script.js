@@ -1,5 +1,5 @@
 // Nav hamburgerburger selections
-const burger = document.querySelector("#burger-menu");
+const menubar = document.querySelector("#menu-bar");
 const ul = document.querySelector("nav ul");
 const nav = document.querySelector("nav");
 
@@ -10,7 +10,7 @@ const scrollUp = document.querySelector("#scroll-up");
 const navLink = document.querySelectorAll(".nav-link");
 
 // Hamburger menu function
-burger.addEventListener("click", () => {
+menubar.addEventListener("click", () => {
   ul.classList.toggle("show");
 });
 
